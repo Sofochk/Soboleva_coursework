@@ -1,0 +1,21 @@
+﻿  AssetManager.cpp
+  Collision.cpp
+  ECS.cpp
+  Game.cpp
+U:\cpp_game\New\Soboleva\Game\Src\ECS\ECS.h(93,33): warning C4244: аргумент: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+U:\cpp_game\New\Soboleva\Game\Src\Game.cpp(113,8): message : выполняется компиляция ссылки на экземпляр шаблон функции "T &Entity::addComponent<ColliderComponent,const char(&)[7],float,float,int,int>(const char (&)[7],float &&,float &&,int &&,int &&)"
+          with
+          [
+              T=ColliderComponent
+          ]
+  GameObject.cpp
+  main.cpp
+  Map.cpp
+  TextureManager.cpp
+  Vector2D.cpp
+  Создание кода...
+  Game.vcxproj -> U:\cpp_game\New\Soboleva\Debug\Game.exe

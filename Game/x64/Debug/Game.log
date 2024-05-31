@@ -1,0 +1,16 @@
+﻿  Game.cpp
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ SDL_CreateWindow в функции "public: void __cdecl Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QEAAXPEBDHHHH_N@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ SDL_DestroyWindow в функции "public: void __cdecl Game::clean(void)" (?clean@Game@@QEAAXXZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ SDL_PollEvent в функции "public: void __cdecl Game::handleEvents(void)" (?handleEvents@Game@@QEAAXXZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ SDL_CreateRenderer в функции "public: void __cdecl Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QEAAXPEBDHHHH_N@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ SDL_SetRenderDrawColor в функции "public: void __cdecl Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QEAAXPEBDHHHH_N@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ SDL_RenderClear в функции "public: void __cdecl Game::render(void)" (?render@Game@@QEAAXXZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ SDL_RenderPresent в функции "public: void __cdecl Game::render(void)" (?render@Game@@QEAAXXZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ SDL_DestroyRenderer в функции "public: void __cdecl Game::clean(void)" (?clean@Game@@QEAAXXZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ SDL_Init в функции "public: void __cdecl Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QEAAXPEBDHHHH_N@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ SDL_Quit в функции "public: void __cdecl Game::clean(void)" (?clean@Game@@QEAAXXZ).
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+U:\cpp_game\SDL2\SDL2\lib\x86\SDL2.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+U:\cpp_game\SDL2\SDL2\lib\x86\SDL2main.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+U:\cpp_game\SDL2_image\SDL2_image\lib\x86\SDL2_image.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+U:\cpp_game\Game\x64\Debug\Game.exe : fatal error LNK1120: неразрешенных внешних элементов: 11
